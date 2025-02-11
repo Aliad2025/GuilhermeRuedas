@@ -1,20 +1,17 @@
 body {
-  & main {
-    background-color: #ff868a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    padding: 20px;
+    & main {
+        background-color: #ff868a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        padding: 20px;
 
-    & img {
-      width: 100%;
-
-      @media screen and (min-width: 600px) {
-        img {
-          width: 600px;
+        & img {
+            width: 100%;
+            @media screen and (min-width: 600px) {
+                width: 600px;
+            }
         }
-      }
     }
-  }
 }
